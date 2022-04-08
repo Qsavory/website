@@ -1,0 +1,85 @@
+
+
+h1 {color: rgb(236, 221, 221); text-align:center;}
+
+
+body{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-size: 25px;
+    background-color: rgb(0,0,0,0.6); 
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    border-radius: 15px;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+h3{
+    color:rgb(245, 240, 240); text-align:center;}
+
+
+
+.background {
+    background-image:url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    color: antiquewhite; text-align:left
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+}
+
+.navbar :hover{
+    color: white;
+}
+
+.artists a {
+    text-decoration: none;
+    color: white;
+}
+
+.artists :hover{
+    color:red;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    /* float: left; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
